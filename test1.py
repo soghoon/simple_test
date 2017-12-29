@@ -24,3 +24,13 @@ def myplot(*args,**kwargs):
     y=args[1]
     plt.plot(x,y)
     plt.show()
+
+# First branch didn't worked out 
+# this is second try.
+
+def myplot(*args,**kwargs):
+    '''This is my_plot file first two argument will be assumed to be x,y values'''
+    x=args[0]
+    y=args[1]
+    plt.plot(x,y)
+    plt.show()
