@@ -3,4 +3,4 @@ import scipy.constants as spc
 
 mc = spc.m_e * spc.c
 mc2 = spc.m_e * spc.c**2
-mc3 = spc.m_e * spc.c**3
+'''We do not need mc3 / if we need we can built it any time. please check. this'''
