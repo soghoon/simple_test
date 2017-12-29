@@ -1,5 +1,6 @@
 import numpy as np 
 import scipy.constants as spc
+import matplotlib.pyplot as plt
 
 mc = spc.m_e * spc.c
 mc2 = spc.m_e * spc.c**2
