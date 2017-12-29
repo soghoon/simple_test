@@ -14,3 +14,13 @@ particle_gammas = [1.01,1.33,2.34,4.44,1.0]
 
 plt.plot(partie_IDs, particle_gammas)
 plt.show()
+
+# branch test. i just started branch without specifying branch name
+# here i'm gonna write simple plotting tool just for myself.
+
+def myplot(*args,**kwargs):
+    '''This is my_plot file first two argument will be assumed to be x,y values'''
+    x=args[0]
+    y=args[1]
+    plt.plot(x,y)
+    plt.show()
